@@ -6,7 +6,7 @@ services:
     build: ./ # dockerfile所在目录
     environment:
       TZ: Asia/Shanghai
-      APIKEY: "your api key" #APIKEY
+      APIKEY: "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" #APIKEY
       MODEL: "gpt-3.5-turbo-0301" #模型
       BOT_DESC: "你是一个AI助手,我需要你模拟一名温柔贴心的女朋友来回答我的问题." #ai设定
       MAX_TOKENS: 512
