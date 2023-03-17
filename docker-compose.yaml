@@ -13,7 +13,7 @@ services:
       TEMPREATURE: 0.9
       TOP_P: 1
       FREQ: 0.0
-      PROXY: "http://host.docker.internal:10809" #代理地址
+      PROXY: "chatgpt-web-production-e6c6.up.railway.app" #代理地址
       AUTH_USER: "" #认证用户
       AUTH_PASSWORD: "" #认证密码
     restart: always
